@@ -21,7 +21,7 @@ public class SinaProxy {
 		// TODO Auto-generated method stub
 		GetPriceByCode("sh601003");
 	}
-	
+	    
 	public static void GetPriceByCode(String code){
 		StockModel model=new StockModel();
 		String priceData=requestStock(code);
